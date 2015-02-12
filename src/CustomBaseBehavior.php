@@ -9,8 +9,6 @@ class CustomBaseBehavior extends Behavior
 {
     // default parameters value
     protected $parameters = array(
-        'base_object' => 'BaseObject',
-        'base_peer' => '',
         'base_query' => 'ModelCriteria',
     );
 
@@ -33,16 +31,8 @@ class CustomBaseBehavior extends Behavior
     public function parentClass($builder)
     {
         switch (get_class($builder)) {
-            case 'PHP5PeerBuilder':
-                $class = $this->getParameter('base_peer');
-                break;
-            
             case 'QueryBuilder':
                 $class = $this->getParameter('base_query');
-                break;
-            
-            case 'PHP5ObjectBuilder':
-                $class = $this->getParameter('base_object');
                 break;
         }
 
