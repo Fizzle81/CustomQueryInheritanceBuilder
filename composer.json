@@ -1,15 +1,15 @@
 {
-  "name" : "fizzle81/base-behavior",
-  "description" : "Propel Behavior to customize generated parent Base classes ",
+  "name" : "fizzle81/query-inheritance-builder",
+  "description" : "Propel 2 Query Inheritance Builder to use generic query class as inheritance for child classes ",
   "version" : "0.1",
   "require" : {
     "propel/propel" : "dev-master"
   },
   "authors" : [ {
-    "name" : "Charles SANQUER",
-    "email" : "charles.sanquer@gmail.com"
+    "name" : "Christoph Quadt",
+    "email" : "christoph@quadtrilogy.de"
   } ],
-  "keywords" : [ "propel", "behavior", "base", "inheritance" ],
+  "keywords" : [ "propel", "query", "single", "inheritance" ],
   "autoload" : {
     "classmap" : [ "src/" ]
   },
