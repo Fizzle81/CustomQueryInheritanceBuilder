@@ -39,7 +39,7 @@ EOF;
                     )
                 )
             );
-            $config = new QuickGeneratorConfig($extraconf);
+            $config  = new QuickGeneratorConfig($extraconf);
             $builder = new QuickBuilder();
             $config  = $builder->setConfig($config);
             $builder->setSchema($schema);
@@ -47,7 +47,12 @@ EOF;
         }
     }
 
-    public function testCustomBase() {
+    /**
+     * test insertion of generic query class
+     *
+     * @return void
+     */
+    public function testInsertQueryClass() {
         $this->assertEquals('Bookstore\\Base\\FantasyBookQuery', get_parent_class('Bookstore\\FantasyBookQuery'));
         $this->assertEquals('Bookstore\\BookQuery', get_parent_class('Bookstore\\Base\\FantasyBookQuery'));
         $this->assertEquals('Bookstore\\Base\\BookQuery', get_parent_class('Bookstore\\BookQuery'));
