@@ -1,21 +1,17 @@
 {
-    "name": "csanquer/custom-base-behavior",
-    "description": "Propel Behavior to customize generated parent Base classes ",
-    "keywords": [ "propel", "behavior", "base", "inheritance" ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Charles SANQUER",
-            "email": "charles.sanquer@gmail.com"
-        }
-    ],
-    "autoload": {
-        "classmap": ["src/"]
-    },
-    "require": {
-        "propel/propel1": "1.6.*"
-    },
-    "require-dev": {
-        "php": ">=5.3.2"
-    }
+  "name" : "fizzle81/base-behavior",
+  "description" : "Propel Behavior to customize generated parent Base classes ",
+  "version" : "0.1",
+  "require" : {
+    "propel/propel" : "dev-master"
+  },
+  "authors" : [ {
+    "name" : "Charles SANQUER",
+    "email" : "charles.sanquer@gmail.com"
+  } ],
+  "keywords" : [ "propel", "behavior", "base", "inheritance" ],
+  "autoload" : {
+    "classmap" : [ "src/" ]
+  },
+  "license" : "MIT"
 }
