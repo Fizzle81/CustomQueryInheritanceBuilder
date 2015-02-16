@@ -1,7 +1,7 @@
 QueryInheritanceBehaviorBuilder for Propel 2
 ==========================================
 
-Propel 2 Builder to enable the possibility of customizing the base class for query inheritance objects
+Propel 2 Builder to provide the possibility of customizing the base class for query inheritance objects
 
 License
 -------
