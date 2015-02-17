@@ -21,5 +21,5 @@ Installation
 To enable the builder, just reference it as a custom builder in the propel settings:
 
 ```ini
-propel.generator.objectModel.builders.queryinheritance = QueryInheritance\\Builder\\QueryInheritanceBehaviorBuilder
+propel.generator.objectModel.builders.queryinheritance = chq81\\QueryInheritance\\Builder\\QueryInheritanceBehaviorBuilder
 ```
