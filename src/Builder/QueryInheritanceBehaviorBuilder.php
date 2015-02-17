@@ -3,7 +3,6 @@
 namespace QueryInheritance\Builder;
 
 use Propel\Generator\Builder\Om\QueryInheritanceBuilder;
-use Propel\Generator\Builder\Om\ClassTools;
 
 /**
  * builder to provide behaviors for query inheritance objects
@@ -20,7 +19,7 @@ class QueryInheritanceBehaviorBuilder extends QueryInheritanceBuilder {
      * @return string
      */
     protected function getParentClassName() {
-        $parentClass = $this->getBehaviorContent('parentClass');
+        $parentClass = $this->getBehaviorContentBase('parentClass', 'QueryBuilderModifier');
         if (!empty($parentClass)) {
             return $parentClass;
         }
