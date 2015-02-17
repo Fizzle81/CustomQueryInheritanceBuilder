@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7e4bbae1c502529844304b0b22e37a87",
+    "hash": "4502e9f5673e3454f4bee15095582cc0",
     "packages": [
         {
             "name": "propel/propel",
