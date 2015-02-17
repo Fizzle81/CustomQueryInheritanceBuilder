@@ -1,6 +1,6 @@
 <?php
 
-namespace QueryInheritance\Builder;
+namespace chq81\QueryInheritance\Builder;
 
 use Propel\Generator\Builder\Om\QueryInheritanceBuilder;
 

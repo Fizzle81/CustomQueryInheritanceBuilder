@@ -1,5 +1,5 @@
 {
-  "name" : "fizzle81/query-inheritance-behavior-builder",
+  "name" : "chq81/query-inheritance-behavior-builder",
   "description" : "Propel 2 Query Inheritance Builder to use generic query class as inheritance for child classes ",
   "version" : "1.0",
   "require" : {
