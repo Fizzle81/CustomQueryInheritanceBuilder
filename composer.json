@@ -1,16 +1,21 @@
 {
   "name" : "chq81/query-inheritance-behavior-builder",
   "description" : "Propel 2 Query Inheritance Builder to use generic query class as inheritance for child classes ",
-  "require" : {
-    "propel/propel" : "dev-master"
-  },
+  "license" : "MIT",
   "authors" : [ {
     "name" : "Christoph Quadt",
     "email" : "christoph@quadtrilogy.de"
   } ],
   "keywords" : [ "propel", "query", "single", "inheritance" ],
+  "require": {
+    "propel/propel": "dev-master || 2.0.0-alpha10"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
   "autoload" : {
     "classmap" : [ "src/" ]
-  },
-  "license" : "MIT"
+  }
 }
